@@ -178,6 +178,7 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: fixed;
 }
 
 #intro .carousel-item::before {
@@ -233,52 +234,6 @@ h6 {
   margin: 80px auto -100px auto;
   color: #fff;
   text-align: left;
-}
-
-#intro .carousel-fade {
-  overflow: hidden;
-}
-
-#intro .carousel-fade .carousel-inner .carousel-item {
-  transition-property: opacity;
-}
-
-#intro .carousel-fade .carousel-inner .carousel-item,
-#intro .carousel-fade .carousel-inner .active.carousel-item-left,
-#intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  opacity: 0;
-}
-
-#intro .carousel-fade .carousel-inner .active,
-#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
-#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#intro .carousel-fade .carousel-inner .carousel-item-next,
-#intro .carousel-fade .carousel-inner .carousel-item-prev,
-#intro .carousel-fade .carousel-inner .active.carousel-item-left,
-#intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  left: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#intro .carousel-control-prev,
-#intro .carousel-control-next {
-  width: 10%;
-}
-
-#intro .carousel-control-next-icon,
-#intro .carousel-control-prev-icon {
-  background: none;
-  font-size: 32px;
-  line-height: 1;
-}
-
-#intro .carousel-indicators li {
-  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -576,22 +531,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 
-#about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 40px 0;
-  position: relative;
+#home{
+  text-align: center;
 }
-
-#about::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
-  z-index: 9;
+#home .container h1{
+  margin:36px;
+}
+#home .isi .container.atas{
+  background-color:#f9f8f8;
+  margin-top:-85px;
+  padding-bottom:700px;
 }
 
 #about .container {
