@@ -13,6 +13,32 @@ body {
   background-repeat: no-repeat;
   background-image: url("../img/intro-carousel/1.jpg");
   background-attachment: fixed;
+
+        overflow-y: scroll;
+        overflow-x: hidden;
+}
+
+#wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+#sidebar{
+   background: rgb(245, 159, 30);
+   margin-top: 0px;
+   margin-right: 0px;
+   padding-bottom:700px;
+   width: 30%;
+   float: right;
+   position: relative;
+   padding: 5px;
+}
+
+#content{
+  float: right;
+  width: 760px;
+  margin-left: 200px;
+  padding: 10px;
+  background: #F5EDF0;
 }
 
 body::after{
@@ -20,7 +46,7 @@ body::after{
   position: absolute;
   width: 100%;
   top: 0px;
-  height: 7000px;
+  height: 7500px;
   margin: 0;
   padding: 0;
   background: rgba(0, 0, 0, 0.7);
@@ -550,7 +576,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #home .isi .container.atas{
   background-color:#f9f8f8;
   margin-top:-85px;
+  margin-left: -20px;
   padding-bottom:700px;
+  width: 70%;
 }
 
 #about .container {
