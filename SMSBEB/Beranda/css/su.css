@@ -1,0 +1,372 @@
+body{
+  margin: 0px;
+  background-color: #d6d3d3
+}
+a.navbar-brand.navbar-link{
+  margin-top:7px;
+}
+ul.nav.navbar-nav.navbar-right{
+  margin-top:12px;
+  margin-right:18px;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  color:#363535;
+  background-color:#e7e7e7;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  color:#dad9d9;
+  background-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+  color:#b8b6b6;
+}
+.navbar-brand, .navbar-nav > li > a{
+  text-shadow:0 1px 0 rgba(255,255,255,.25);
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
+  background-repeat:repeat-x;
+  -webkit-box-shadow:inset 0 3px 9px rgba(0,0,0,.075);
+  background:rgba(255, 255, 255, 0.3);
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color:#ddd;
+  background:white;
+}
+
+
+button.navbar-toggle.collapsed{
+  margin-top:16px;
+  margin-right:52px;
+}
+nav.navbar.navbar-default{
+  height: 100px;
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 75px;
+}
+
+
+.navbar-header a.navbar-brand img{
+  height: 30px;
+  margin-top: -4px;
+}
+.navbar-nav > li > a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+#background{
+  margin-top:-120px;
+  background:url(../../Beranda/img/.jpg) no-repeat;
+  background-size:cover;
+  padding-top:111px;
+  height:638px;
+  max-height:1112px;
+}
+#background .jumbotron{
+  background:none;
+  margin-left:137px;
+  max-width:1000px;
+  margin-top:22px;
+}
+#background .jumbotron h1{
+  font-family:nexa;
+  color:white;
+  margin-bottom:-12px;
+}
+#background .jumbotron p{
+  font-family:raleway;
+  color:white;
+  margin-bottom:-12px;
+  margin-top:27px;
+  padding-right:307px;
+}
+
+
+#home{
+  text-align: center;
+}
+#home .container h2{
+  margin:36px;
+}
+#home * {
+  box-sizing: border-box;
+}
+
+#home img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+#home .container {
+  position: relative;
+}
+
+/* Hide the images by default */
+#home .mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+#home .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#home .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#home .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#home .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+#home .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+#home .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+#home .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+#home .column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+#home .demo {
+  opacity: 0.6;
+}
+
+#home .active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+/* Fading animation */
+#home .container .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6.5s;
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.container.bawah{
+  text-align: center;
+}
+
+#news{
+  text-align: center;
+  margin-top: 31px;
+  background-color: #f9f8f8;
+  padding-top: 43px;
+  padding-bottom: 25px;
+}
+
+#gallery .container h1{
+  text-align: center;
+  font-family: raleway;
+  margin-bottom: 38px;
+}
+
+#gallery .container .row #dua.col-lg-6.col-md-6.col-sm-6.col-xs-6{
+  padding-top:31px;
+}
+
+#about{
+  background-color: #b03f01;
+  margin-top: 75px;
+  color: white;
+}
+
+#about .container{
+  width: 100%;
+  padding: 55px;
+}
+
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
+  font-family:petitamedium;
+  color:#eee;
+}
+
+#icon{
+  color:white;
+  font-size:37px;
+  margin-top:10px;
+  position:static;
+}
+
+#icon i.fa.fa-instagram{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-facebook{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-twitter{
+  margin-left:17px;
+}
+
+#kaki{
+  color: rgb(40,78,94);
+  background-color: #0f1517;
+}
+
+.button{
+  background: #fff;
+  padding: 10px 15px;
+  color: #34495e;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+  margin-top: 0px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.button:hover{
+  background: #34495e;
+  color: #fff;
+}
+
+.popup{
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-content{
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background-color: rgba(214, 214, 214, 0.9);
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.popup-content img{
+	width: 150px;
+  height: 100px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+	text-align: center;
+}
+
+input[type="text"],input[type="password"]{
+	width: 50%;
+	border-radius: 10px;
+  box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+}
+
+i[class="fa fa-user"],i[class="fa fa-lock"]{
+	width: 50px;
+  height: 45px;
+  text-align: center;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	margin: 10px 0;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color: #da6900;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+
+/*untuk tampian slide*/
